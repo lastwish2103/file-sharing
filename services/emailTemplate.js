@@ -131,8 +131,8 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                                         </tr>
                                     </tbody>
                                     </table>
-                                    <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Thank you for using inShare service.</p>
-                                    <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Good luck! Hope it works.</p>
+                                    <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Thank you for using us.</p>
+                                    <p style="font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Hope to, see you again.</p>
                                 </td>
                                 </tr>
                             </table>
@@ -147,13 +147,13 @@ module.exports = ({emailFrom, downloadLink, size, expires}) => {
                         <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                             <tr>
                             <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                                <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">inShare inc. main street 29, Moscow</span>
+                                <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">inShare inc. Manit Square,Bhopal</span>
                                 <br> Want to share a file? <a href="http://localhost:3000" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">inShare</a>.
                             </td>
                             </tr>
                             <tr>
                             <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                                Powered by <a href="https://www.youtube.com/channel/UCo9xTRmg1SqQ5JSsA2fAgJw" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">Coders Gyan</a>.
+                                Powered by <a href="https://www.linkedin.com/in/nayan-gupta-86b782191/" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">Nayan Gupta</a>.
                             </td>
                             </tr>
                         </table>
