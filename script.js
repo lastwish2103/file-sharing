@@ -20,5 +20,7 @@ async function fetchData() {
     }
     console.log('Job done!');
 }
-
-fetchData().then(process.exit);
+useInterval(()=>{
+    fetchData().then(()=>{console.log("done")});
+}, 2*60*1000)
+//fetchData().then(process.exit);
