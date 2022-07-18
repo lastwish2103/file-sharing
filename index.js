@@ -4,6 +4,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const path = require('path');
 const cors = require('cors');
+const fetchData = require('./script');
+
 // Cors 
 //const corsOptions = {
   //  origin: process.env.ALLOWED_CLIENTS.split(',')
@@ -24,6 +26,10 @@ app.use(express.static('public'));
 
 const connectToMongo = require('./config/db');
 connectToMongo();
+
+setInterval(()=>{
+  fetchData().then(()=>{console.log("done")});
+}, 1*60*1000)
 
 app.use(express.json());
 
